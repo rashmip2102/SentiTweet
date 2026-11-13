@@ -6,7 +6,6 @@ import streamlit as st
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
-# Ensure NLTK stopwords are available
 try:
     STOP_WORDS = set(stopwords.words("english"))
 except LookupError:
